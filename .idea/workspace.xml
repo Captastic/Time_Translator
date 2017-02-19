@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="457a6c46-f08f-4fc4-8c91-b45f13572c66" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Input_Output.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Parser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Time.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Input_Output.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Parser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Time.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Converter.class" afterPath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Converter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Converter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/capriotti/anthony/TimeTranslator/ConverterTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Main.class" afterPath="$PROJECT_DIR$/target/classes/capriotti/anthony/TimeTranslator/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/capriotti/anthony/TimeTranslator/ConverterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/capriotti/anthony/TimeTranslator/ConverterTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java" afterPath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java" afterPath="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java" afterPath="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,38 +27,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java">
+      <file leaf-file-name="MilitaryConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConverterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java">
+      <file leaf-file-name="MilitaryConverterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="141" column="51" lean-forward="false" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
+            <state relative-caret-position="1230">
+              <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +86,12 @@
         <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Input_Output.java" />
         <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/TimeFormatException.java" />
         <option value="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java" />
       </list>
     </option>
   </component>
@@ -117,7 +110,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
-    <option name="y" value="26" />
+    <option name="y" value="23" />
     <option name="width" value="1090" />
     <option name="height" value="709" />
   </component>
@@ -136,9 +129,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +231,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="ConverterTest.convertMinutes00Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MilitaryConverterTest.convertHoursTwentyPlusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.TimeTranslator.*" />
@@ -249,8 +242,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.TimeTranslator" />
-      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.ConverterTest" />
-      <option name="METHOD_NAME" value="convertMinutes00Test" />
+      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.MilitaryConverterTest" />
+      <option name="METHOD_NAME" value="convertHoursTwentyPlusTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -264,7 +257,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ConverterTest.convertMinutes01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MilitaryConverterTest.convertMinutesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.TimeTranslator.*" />
@@ -275,33 +268,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.TimeTranslator" />
-      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.ConverterTest" />
-      <option name="METHOD_NAME" value="convertMinutes01Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConverterTest.convertMinutesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="capriotti.anthony.TimeTranslator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TimeTranslator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="capriotti.anthony.TimeTranslator" />
-      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.ConverterTest" />
+      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.MilitaryConverterTest" />
       <option name="METHOD_NAME" value="convertMinutesTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -316,7 +283,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ConverterTest.outputTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MilitaryConverterTest.outputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="capriotti.anthony.TimeTranslator.*" />
@@ -327,8 +294,34 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="capriotti.anthony.TimeTranslator" />
-      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.ConverterTest" />
-      <option name="METHOD_NAME" value="outputTimeTest" />
+      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.MilitaryConverterTest" />
+      <option name="METHOD_NAME" value="outputTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MilitaryConverterTest.invalidOutputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="capriotti.anthony.TimeTranslator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TimeTranslator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="capriotti.anthony.TimeTranslator" />
+      <option name="MAIN_CLASS_NAME" value="capriotti.anthony.TimeTranslator.MilitaryConverterTest" />
+      <option name="METHOD_NAME" value="invalidOutputTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -743,19 +736,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutes00Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutes01Test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutesTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConverterTest.outputTimeTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.convertHoursTwentyPlusTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.convertMinutesTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.outputTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.invalidOutputTest" />
       <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConverterTest.outputTimeTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutes00Test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConverterTest.convertMinutes01Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.invalidOutputTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.outputTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.convertMinutesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MilitaryConverterTest.convertHoursTwentyPlusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -771,47 +764,49 @@
       <updated>1487197065451</updated>
       <workItem from="1487197069373" duration="4867000" />
       <workItem from="1487255878617" duration="9370000" />
-      <workItem from="1487280926350" duration="14170000" />
+      <workItem from="1487280926350" duration="21785000" />
+      <workItem from="1487466462627" duration="11000" />
+      <workItem from="1487466523668" duration="1784000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConverterTest_convertMinutes00Test - 2017.02.17 at 00h 18m 37s.xml">
-      <configuration name="ConverterTest.convertMinutes00Test" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_convertMinutesTest - 2017.02.18 at 20h 34m 38s.xml">
+      <configuration name="MilitaryConverterTest.convertMinutesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_convertMinutes00Test - 2017.02.17 at 00h 19m 52s.xml">
-      <configuration name="ConverterTest.convertMinutes00Test" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_convertMinutesTest - 2017.02.18 at 20h 34m 58s.xml">
+      <configuration name="MilitaryConverterTest.convertMinutesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_convertMinutes00Test - 2017.02.17 at 00h 20m 03s.xml">
-      <configuration name="ConverterTest.convertMinutes00Test" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_convertMinutesTest - 2017.02.18 at 20h 37m 25s.xml">
+      <configuration name="MilitaryConverterTest.convertMinutesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_convertMinutes01Test - 2017.02.17 at 00h 19m 26s.xml">
-      <configuration name="ConverterTest.convertMinutes01Test" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_convertMinutesTest - 2017.02.18 at 20h 37m 41s.xml">
+      <configuration name="MilitaryConverterTest.convertMinutesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_convertMinutes01Test - 2017.02.17 at 00h 19m 48s.xml">
-      <configuration name="ConverterTest.convertMinutes01Test" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_invalidOutputTest - 2017.02.18 at 20h 40m 34s.xml">
+      <configuration name="MilitaryConverterTest.invalidOutputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_convertMinutesTest - 2017.02.17 at 00h 21m 52s.xml">
-      <configuration name="ConverterTest.convertMinutesTest" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_invalidOutputTest - 2017.02.18 at 20h 40m 52s.xml">
+      <configuration name="MilitaryConverterTest.invalidOutputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_outputTimeTest - 2017.02.17 at 00h 21m 57s.xml">
-      <configuration name="ConverterTest.outputTimeTest" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_outputTest - 2017.02.18 at 20h 38m 47s.xml">
+      <configuration name="MilitaryConverterTest.outputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_outputTimeTest - 2017.02.17 at 00h 22m 44s.xml">
-      <configuration name="ConverterTest.outputTimeTest" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_outputTest - 2017.02.18 at 20h 39m 30s.xml">
+      <configuration name="MilitaryConverterTest.outputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_outputTimeTest - 2017.02.17 at 00h 22m 54s.xml">
-      <configuration name="ConverterTest.outputTimeTest" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_outputTest - 2017.02.18 at 20h 40m 01s.xml">
+      <configuration name="MilitaryConverterTest.outputTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConverterTest_outputTimeTest - 2017.02.17 at 00h 34m 49s.xml">
-      <configuration name="ConverterTest.outputTimeTest" configurationId="JUnit" />
+    <history-entry file="MilitaryConverterTest_outputTest - 2017.02.18 at 20h 40m 19s.xml">
+      <configuration name="MilitaryConverterTest.outputTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28407000" />
+    <option name="totallyTimeSpent" value="37817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="26" width="1090" height="709" extended-state="0" />
+    <frame x="5" y="23" width="1090" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,26 +818,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47038916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47038916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3024809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3129771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -862,22 +857,96 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
@@ -896,76 +965,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Output.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Time.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Time.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Parser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Input_Output.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/TimeFormatException.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/StandardConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Input_Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/TimeFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/ConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="141" column="51" lean-forward="false" selection-start-line="141" selection-start-column="51" selection-end-line="141" selection-end-column="51" />
+        <state relative-caret-position="1530">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/MilitaryConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Converter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/capriotti/anthony/TimeTranslator/MilitaryConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="48" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
           <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/StandardConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/capriotti/anthony/TimeTranslator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>

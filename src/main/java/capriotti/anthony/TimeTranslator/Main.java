@@ -5,8 +5,11 @@ package capriotti.anthony.TimeTranslator;
  */
 public class Main {
     public static void main (String[] args){
-        Converter converter = new Converter();
-        System.out.println(converter.outputTime("09:30 pm"));
+        StandardConverter standardConverter = new StandardConverter();
+        MilitaryConverter militaryConverter = new MilitaryConverter();
+        System.out.println(standardConverter.outputTime("12:30 pm"));
+        System.out.println(militaryConverter.outputMilitaryTime("23:55"));
+
 
 
     }

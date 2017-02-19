@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 /**
  * Created by anthonycapriotti on 2/15/17.
  */
-public class Converter {
+public class StandardConverter {
 
     private static final String[] tens = {"", "ten", "twenty", "thirty", "forty", "fifty"};
     private static final String[] units = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
@@ -20,8 +20,8 @@ public class Converter {
         return input.split("[:\\s]");
     }
 
-    protected static String convertHours(String hours) {
-        return units[Integer.parseInt(hours)];
+    protected static String convertHours(String input) {
+        return units[Integer.parseInt(input)];
     }
 
     protected static String convertMinutes(String input) {
