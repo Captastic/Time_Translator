@@ -42,8 +42,12 @@ public class StandardConverter {
 
     public static String outputTime(String input) {
        String[] time = parseTime(input);
+       String hours = convertHours(time[0]);
+       String minutes = convertMinutes(time[1]);
+       String meridiem = convertMeridiem(time[2]);
+
         if (validateTimeFormat(input)){
-            return "The time is " + convertHours(time[0]) + convertMinutes(time[1]) + convertMeridiem(time[2]);
+            return "The time is " + hours + " " + minutes + " " + meridiem;
         } else
             return "incorrect time format";
     }

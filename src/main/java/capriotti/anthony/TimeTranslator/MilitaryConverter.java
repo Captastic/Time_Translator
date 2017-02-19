@@ -48,8 +48,10 @@ public class MilitaryConverter {
 
     protected static String outputMilitaryTime(String input){
         String[] time = parseTime(input);
+        String hours = convertHours(time[0]);
+        String minutes = convertMinutes(time[1]);
         if (validateMilitaryFormat(input)){
-            return "The time is " + convertHours(time[0]) + convertMinutes(time[1]);
+            return "The time is " + hours + " " + minutes;
         } else
             return "incorrect time format";    }
 
